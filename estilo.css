@@ -1,0 +1,250 @@
+html{
+    font-family: sans-serif;
+       }
+body{
+    background-color: rgb(9, 9, 54);
+}
+h1{
+    color: rgb(235, 177, 20);
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(11, 14, 182);
+}
+h2{
+    color: rgb(235, 177, 20);
+    text-shadow: 1px 1px 1px black;
+    font-size: 16px;
+    text-align: center;
+}
+h3{
+    color: rgb(248, 104, 116);
+    text-shadow: 1px 1px 1px black;
+    font-size: 14px;
+    text-align: center;
+}
+p{
+    color: white;
+    text-shadow: 1px 2px 2px #000000;
+    font-size: 10px;
+    text-align: justify;
+    text-indent: 1em;
+ }
+.imgp1{
+    max-width: 8em;
+    width: 6em;
+    height: 6em;
+    margin:0;  
+    border-radius: 50%; 
+    float: left;
+   }
+
+   .imgp2{
+    max-width: 8em;
+    width: 6em;
+    height: auto;
+    margin:0;  
+    border-radius: 5px;
+    float: left;
+   }
+   .imgpp{ 
+    max-width: 8em;
+    width: 1em;
+    height: auto;
+    margin:auto;  
+    float: left;
+   }
+
+
+.imgm{
+    max-width: 100%;
+    width: 250px;
+    height: 200px;
+    margin: 5px auto 2px 50px;
+    
+}
+.divprincipal{
+    max-width: 90em;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.divprincipal div{
+    width: 97%;
+    height: auto;
+    margin:8px;
+}
+
+    .button {
+        background-color: #010363; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        margin: 2px auto 2px 80px;
+        cursor: pointer;
+        padding: 8px 12px;
+      }
+
+    .header nav{
+    text-align: center;
+    margin:auto;
+   
+    }
+.imgtopo{
+    max-width: 8em;
+    width: 6em;
+    height: 6em;
+    margin:2em 3em 1em 8em;   
+    border-radius: 50%;        
+     }
+
+     .logo{
+    max-width: 4em;
+    width: 1em;
+    height: auto;
+    margin:auto; 
+    opacity: 0.5;
+            }
+.menu{
+    background-color: rgb(5, 5, 136);
+    text-align: center;
+   
+}
+
+ul{
+    margin:0;    
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    letter-spacing: .2em;
+    font-size: .8em;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+      
+}
+.menu a:hover{
+    background-color: rgb(1, 1, 48);
+}
+
+footer {
+    background-color: rgb(13, 3, 48);
+        width: 100%;
+    position: absolute;
+   padding: 10px;
+    }
+    .p2{
+   text-align: center;
+    font-size: .3em;
+    color: white;
+    }
+    /*telas maiores*/
+@media screen and (min-width:48em){
+    .header{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;    
+        
+    }
+    .imgtopo{
+        max-width: ;width: 100%;
+        height: auto;
+        width: 8em;
+        border-radius: 5px;
+       margin:5px auto 5px 600px;}
+       
+    
+    .menu ul{
+        font-size: .9em;
+        margin-right: 2em;
+        margin-left: 3em;
+        font-family: sans-serif;
+       
+          }
+    .menu li{
+        display:inline-block;
+        text-align: center;
+        
+                    
+    }
+    .header a{
+        border-radius: 5px;}
+
+        .menu a:hover{
+        background-color: rgb(4, 4, 61);
+      
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1em;
+    text-align: justify;
+
+}
+footer {
+ padding: auto;
+ width: 100%;
+ position: absolute;
+    }
+.p2{
+    text-align: center;
+     font-size: .8em;
+     color: white;
+     }
+.button {
+    font-size: 12px;
+    margin: 2px auto 2px 450px;
+    padding: 12px 24px;
+  }
+
+  .imgp1{
+    max-width: 100%;
+    width: 8em;
+    height: 8em;
+    margin:0;  
+    border-radius: 50%; 
+    float: left;
+   }
+
+   .imgp2{
+    max-width: 100%;
+    width: 8em;
+    height: auto;
+    margin:0;  
+    border-radius: 5px;
+    float: left;
+   }
+   .imgpp{ 
+    max-width: 100%;
+    width: 2em;
+    height: auto;
+    margin:auto;  
+    float: left;
+       }
+
+
+.imgm{
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin: 5px auto 2px 400px;
+    float: center;
+}
+}
