@@ -48,7 +48,6 @@ font-family: 'Tajawal', sans-serif;
     max-width: 8em;
     width: 6em;
     height: 6em;
-    margin:0;  
     border-radius: 50%; 
     float: left;
    }
@@ -57,10 +56,10 @@ font-family: 'Tajawal', sans-serif;
     max-width: 8em;
     width: 6em;
     height: auto;
-    margin:0;  
     border-radius: 5px;
     float: left;
    }
+
    .imgpp{ 
     max-width: 8em;
     width: 1em;
@@ -74,7 +73,8 @@ font-family: 'Tajawal', sans-serif;
     max-width: 100%;
     width: 250px;
     height: 200px;
-    margin: 5px auto 2px 50px;
+    margin: auto;
+    margin-left: 10%;
     
 }
 .divprincipal{
@@ -98,9 +98,10 @@ font-family: 'Tajawal', sans-serif;
         text-decoration: none;
         display: inline-block;
         font-size: 10px;
-        margin: 2px auto 2px 80px;
+        margin: auto;
+        margin-left: 30%;
         cursor: pointer;
-        padding: 8px 12px;
+        padding: 10px 14px;
         border-radius:8px;
     border: 1px solid rgb(235, 177, 20) }
 
@@ -226,11 +227,10 @@ h2{
 }
 h3{
     font-size: 1.3em;
-    margin: auto;
-}
+    }
 p{
-    font-size: 1.2em;
-     text-align: justify;
+    font-size: 1em;
+     text-align: center;
     }
    
     .fontapre p{
@@ -267,16 +267,19 @@ height: 30px;
 
 .button{
     font-size: 14px;
-    margin: 2px auto 2px 450px;
+    display:flex;
+    justify-content:center;
+    margin-left: 38%;
+    max-width: 20%;
     padding: 12px 24px;
     border-radius:8px;
-      }
+    text-align: center;
+          }
 
     .imgp1{
     max-width: 100%;
     width: 8em;
     height: 8em;
-    margin:0;  
     border-radius: 50%; 
     float: left;
    }
@@ -285,7 +288,6 @@ height: 30px;
     max-width: 100%;
     width: 8em;
     height: auto;
-    margin:0;  
     border-radius: 5px;
     float: left;
    }
@@ -296,6 +298,5 @@ height: 30px;
     max-width: 100%;
     width: 300px;
     height: auto;
-    margin: 5px auto 2px 500px;
     float: center;}
 }
