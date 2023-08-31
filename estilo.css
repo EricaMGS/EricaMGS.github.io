@@ -1,5 +1,5 @@
 html{
-    font-family: 'Great Vibes', cursive;
+font-family: 'Great Vibes', cursive;
 font-family: 'Satisfy', cursive;
 font-family: 'Source Serif 4', serif;
 font-family: 'Tajawal', sans-serif;
@@ -318,8 +318,6 @@ height: 30px;
     float: left;
    }
    
-
-
 .imgm {
     max-width: 100%;
     width: 300px;
