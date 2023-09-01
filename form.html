@@ -9,34 +9,31 @@
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;1,8..60,200;1,8..60,300&family=Tajawal:wght@200&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="foguete.png">
 <link rel="stylesheet" href="estiloform.css">
+<script defer src="app.js"></script>
 </head>
 <body>
-    <div>
-        <form class="form">
-          <fieldset>
-            <legend>Entre em contato:</legend>
-          <label for="fname">Nome:</label><br>
-          <input type="text" id="fname" name="fname" value=""><br>
-          <label for="lname">Sobrenome:</label><br>
-          <input type="text" id="lname" name="lname" value=""><br>
-          <label for="lname">Telefone:</label><br>
-          <input type="tel" name="ltel" value=""><br>
-          <label for="fname">Email:</label><br>
-        <input type="email" id="lemail" name="lemail" value=""><br>
-        <label for="fname">Mensagem:</label><br>
-        <input style="padding: 40px 60px 40px 60px;" type="text"lmsg" name="lmsg" value=""><br>
-          <br><br>
-          <input type="submit" value="Enviar">
-          </fieldset>
-        </form> 
-      </div>
+  <body>
+    <form
+      action="https://formsubmit.co/erica.medeiros.grota@gmail.com"
+      method="POST"
+      data-form
+    >
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" required />
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required />
+      <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" id="mensagem" required></textarea>
+      <button type="submit" data-button>Enviar</button>
+    </form>
+      
       <hr>
       <footer class=".fontrodape">
         <p>Érica Medeiros Grota Sartori<br> 2023</p>
         <p><a href="https://www.linkedin.com/in/erica-medeiros-grota-sartori/" target="_blank">Linkedin</a></p>
         <p><a href="https://github.com/EricaMGS" target="_blank">Github</a></p>
         <p>erica.medeiros.grota@gmail.com</p>
-        <p><img src="foguete.png" alt="foguete" >
+        <p>
         <img src="in.png" alt="linkedin">
         <img src="github.png" alt="github">
        <img src="email.png" alt="email" >
