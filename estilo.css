@@ -210,6 +210,24 @@ width: 30px;
 height: 30px;
 }
 
+.clock {
+    background-color: #090325;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .time {
+    color: #fff;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin: 0;
+  }
+
     /*telas maiores*/
 @media screen and (min-width:48em){
     .header{
