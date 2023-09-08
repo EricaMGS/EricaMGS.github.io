@@ -91,6 +91,8 @@ font-family: 'Tajawal', sans-serif;
     margin-left: 10%;
     transform: scale(1);
     transition: transform 0.6s ease-in-out;
+    display:flex;
+    margin: 0px auto;
    }
    .imgm:hover{
     transform: scale(1.1);
@@ -368,7 +370,8 @@ height: 30px;
     width: 300px;
     height: auto;
     float: center;
-margin: 1% 0 1% 0;}
+display:flex;
+    margin: 0px auto;}
 
 .buttonseta {
     background-color:white; 
