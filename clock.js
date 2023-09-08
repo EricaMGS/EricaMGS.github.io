@@ -10,3 +10,5 @@ function updateTime() {
   
   setInterval(updateTime, 1000); // Atualiza a cada segundo
   updateTime(); // Chama a função para exibir o tempo atual imediatamente
+
+  
