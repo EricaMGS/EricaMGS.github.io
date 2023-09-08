@@ -232,11 +232,10 @@ footer p{
    }
 
 footer a{
-        text-decoration:none;
         font-family: sans-serif;
-        color: rgb(31, 18, 204);
-        
+        color: rgb(31, 18, 204);        
 }
+
 footer img{
 max-width: 80%;
 width: 30px;
@@ -324,14 +323,9 @@ p{
     
 footer p{
     font-size: 12px;
-    text-align: center;
-    
+    text-align: center;    
    }
 
-footer a{
-        text-decoration:none;
-                     
-}
 footer img{
 max-width: 80%;
 width: 30px;
