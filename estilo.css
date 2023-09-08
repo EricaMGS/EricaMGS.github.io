@@ -152,9 +152,10 @@ font-family: 'Tajawal', sans-serif;
 
         #subir{
             position:fixed;
-            bottom:0px;
+            bottom: 80px;
             right:0px;
-        }        
+        } 
+              
         .buttonseta {
             background-color:white; 
             border-radius: 3px;
