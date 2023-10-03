@@ -47,6 +47,11 @@ font-family: 'Tajawal', sans-serif;
     color:rgb(11, 221, 221);
      }
 
+     .imgfundo{
+        background-image: url(ideia.png) ;
+        /*background-color:lightgrey ; color:blue; padding: 2%;"*/
+     }
+
 .imgp1{
     max-width: 8em;
     width: 6em;
@@ -63,8 +68,8 @@ font-family: 'Tajawal', sans-serif;
    }
 
    .imgp2{
-    max-width: 8em;
-    width: 6em;
+    max-width: 10em;
+    width: 8em;
     height: auto;
     border-radius: 5px;
     float: left;
