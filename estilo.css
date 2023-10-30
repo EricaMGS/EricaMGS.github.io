@@ -1,73 +1,80 @@
-html{
-font-family: 'Great Vibes', cursive;
-font-family: 'Satisfy', cursive;
-font-family: 'Source Serif 4', serif;
-font-family: 'Tajawal', sans-serif;
-       }
-body{
+html {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Source Serif 4', serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
     background-color: rgb(9, 9, 54);
 }
-h1{
+
+h1 {
     color: rgb(235, 177, 20);
     font-size: 18px;
     text-align: center;
     text-shadow: 2px 2px 4px rgb(11, 14, 182);
 }
-h2{
+
+h2 {
     color: rgb(235, 177, 20);
     text-shadow: 1px 1px 1px black;
     font-size: 16px;
     text-align: center;
 }
-h3{
+
+h3 {
     color: rgb(248, 104, 116);
     text-shadow: 1px 1px 1px black;
     font-size: 14px;
     text-align: center;
-    
+
 }
-p{
+
+p {
     color: white;
     font-size: 10px;
     text-align: justify;
     text-indent: 1em;
- }
+}
 
- 
-.fonte{
- font-family: 'Great Vibes', cursive;}
 
- .fontapre{
-font-family: 'Great Vibes', cursive;
-font-family: 'Satisfy', cursive;
-font-family: 'Source Serif 4', serif;
-font-family: 'Tajawal', sans-serif;
- }
- .fontapre p{
-    color:rgb(11, 221, 221);
-     }
+.fonte {
+    font-family: 'Great Vibes', cursive;
+}
 
-     .imgfundo{
-        background-image: url(ideia.png) ;
-        /*background-color:lightgrey ; color:blue; padding: 2%;"*/
-     }
+.fontapre {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Source Serif 4', serif;
+    font-family: 'Tajawal', sans-serif;
+}
 
-.imgp1{
+.fontapre p {
+    color: rgb(11, 221, 221);
+}
+
+.imgfundo {
+    background-image: url(ideia.png);
+    /*background-color:lightgrey ; color:blue; padding: 2%;"*/
+}
+
+.imgp1 {
     max-width: 8em;
     width: 6em;
     height: 6em;
-    border-radius: 50%; 
+    border-radius: 50%;
     float: left;
     transform: scale(1);
     transition: transform 0.6s ease-in-out;
-   }
+}
 
-   .imgp1:hover{
+.imgp1:hover {
     transform: scale(1.1);
     transition: transform 0.6s ease-in-out;
-   }
+}
 
-   .imgp2{
+.imgp2 {
     max-width: 10em;
     width: 8em;
     height: auto;
@@ -75,48 +82,70 @@ font-family: 'Tajawal', sans-serif;
     float: left;
     transform: scale(1);
     transition: transform 0.6s ease-in-out;
-   }
-   .imgp2:hover{
-    transform: scale(1.1);
-    transition: transform 0.6s ease-in-out;}
+}
 
-   .imgpp{ 
+.imgp2:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+}
+
+.imgpp {
     max-width: 8em;
     width: 1em;
     height: auto;
-    margin:auto;  
+    margin: auto;
     float: left;
-   }
+}
 
 
-.imgm{
+.imgm {
     max-width: 100%;
     width: 250px;
     height: 200px;
     margin-left: 10%;
     transform: scale(1);
     transition: transform 0.6s ease-in-out;
-    display:flex;
+    display: flex;
     margin: 0px auto;
-   }
-   .imgm:hover{
-    transform: scale(1.1);
-    transition: transform 0.6s ease-in-out;}
+}
 
-    .imgpy {max-width: 100%;
-    width: 400px;
+.imgm:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+}
+
+.imgpy1 {
+    max-width: 100%;
+    width: 600px;
     height: auto;
     transform: scale(1);
     transition: transform 0.6s ease-in-out;
-    display:flex;
+    display: flex;
     margin: 0px auto;
-   }
-   .imgpy:hover{
+}
+
+.imgpy1:hover {
+    transform: scale(2);
+    transition: transform 0.6s ease-in-out;
+}
+
+.imgpy {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    transform: scale(1);
+    transition: transform 0.6s ease-in-out;
+    display: flex;
+    margin: 0px auto;
+}
+
+.imgpy:hover {
     transform: scale(1.1);
-    transition: transform 0.6s ease-in-out;}
+    transition: transform 0.6s ease-in-out;
+}
 
 
-.divprincipal{
+.divprincipal {
     max-width: 90em;
     justify-content: center;
     display: flex;
@@ -124,159 +153,171 @@ font-family: 'Tajawal', sans-serif;
     gap: 3em;
 }
 
-.divprincipal div{
+.divprincipal div {
     width: 97%;
     height: auto;
-    margin:8px;
+    margin: 8px;
 }
 
-    .button {
-        background-color: rgb(9, 9, 201); 
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        font-size: 10px;
-        display:block;
-    margin: 0px auto;
-        cursor: pointer;
-        border-radius:8px;
-    border: 1px solid rgb(235, 177, 20) ;
-        transform: scale(1);
-    transition: transform 0.6s ease-in-out;
-    padding: 4px 8px;}
-
-    .button:hover {background-color: rgb(3, 3, 58);
-        transform: scale(1.1);
-        transition: transform 0.6s ease-in-out;}
-
-    
-        .button1{
-        background-color: gray; 
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        display:inline-block;
-        font-size: 12px;
-        margin: auto;
-        cursor: pointer;
-        padding: 4px 8px;
-        border-radius: 5px;
-    border: 1px solid rgb(235, 177, 20) ;
-        transform: scale(1);
-    transition: transform 0.6s ease-in-out;}
-
-    .button1:hover {background-color: rgb(36, 36, 44);
-        transform: scale(1.1);
-        transition: transform 0.6s ease-in-out;}
-
-        .button01{
-            background-color: gray; 
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            display:inline-block;
-           margin: 0 48% 0 48%;
-            font-size: 12px;
-            cursor: pointer;
-            padding: 4px 8px;
-            border-radius: 5px;
-        border: 1px solid rgb(235, 177, 20) ;
-            transform: scale(1);
-        transition: transform 0.6s ease-in-out;}
-    
-        .button01:hover {background-color: rgb(36, 36, 44);
-            transform: scale(1.1);
-            transition: transform 0.6s ease-in-out;}
-
-        #subir{
-            position:fixed;
-            bottom: 80px;
-            right:0px;
-        } 
-              
-        .buttonseta {
-            background-color:white; 
-            border-radius: 3px;
-            padding: 1px;                 
-    }
-        
-            
-
-    .header nav{
+.button {
+    background-color: rgb(9, 9, 201);
+    color: white;
     text-align: center;
-    margin:auto;   
-    }
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+    margin: 0px auto;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid rgb(235, 177, 20);
+    transform: scale(1);
+    transition: transform 0.6s ease-in-out;
+    padding: 4px 8px;
+}
 
-.imgtopo{
+.button:hover {
+    background-color: rgb(3, 3, 58);
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+}
+
+
+.button1 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: auto;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 177, 20);
+    transform: scale(1);
+    transition: transform 0.6s ease-in-out;
+}
+
+.button1:hover {
+    background-color: rgb(36, 36, 44);
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+}
+
+.button01 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 48% 0 48%;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 177, 20);
+    transform: scale(1);
+    transition: transform 0.6s ease-in-out;
+}
+
+.button01:hover {
+    background-color: rgb(36, 36, 44);
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+}
+
+#subir {
+    position: fixed;
+    bottom: 80px;
+    right: 0px;
+}
+
+.buttonseta {
+    background-color: white;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+
+
+.header nav {
+    text-align: center;
+    margin: auto;
+}
+
+.imgtopo {
     max-width: 12em;
     width: 10em;
     height: 10em;
     display: block;
     align-items: center;
     margin: 5% auto;
-    border-radius: 50%;        
-     }
+    border-radius: 50%;
+}
 
-     .logo{
+.logo {
     max-width: 4em;
     width: 1em;
     height: auto;
-    margin:auto; 
+    margin: auto;
     opacity: 0.5;
-            }
-.menu{
+}
+
+.menu {
     background-color: rgb(5, 5, 136);
     text-align: center;
-   
+
 }
 
-ul{
-    margin:0;    
+ul {
+    margin: 0;
 }
 
-.menu ul{
+.menu ul {
     list-style-type: none;
     padding: 0;
     letter-spacing: .2em;
     font-size: .8em;
 }
-.menu a{
-    color:white;
+
+.menu a {
+    color: white;
     text-decoration: none;
     display: block;
     padding: 0.5em;
-      
+
 }
-.menu a:hover{
+
+.menu a:hover {
     background-color: rgb(1, 1, 48);
 }
 
 
 footer {
-        position:relative;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color:bisque;
-        }
-    
-footer p{
-    color:blue;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+}
+
+footer p {
+    color: blue;
     font-family: sans-serif;
     font-size: 8px;
     text-align: center;
-        
-   }
 
-footer a{
-        font-family: sans-serif;
-        color: rgb(31, 18, 204);        
 }
 
-footer img{
-max-width: 80%;
-width: 30px;
-height: 30px;
+footer a {
+    font-family: sans-serif;
+    color: rgb(31, 18, 204);
+}
+
+footer img {
+    max-width: 80%;
+    width: 30px;
+    height: 30px;
 }
 
 .clock {
@@ -284,9 +325,9 @@ height: 30px;
     padding: 8px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .time {
+}
+
+.time {
     color: #fff;
     font-size: 1rem;
     font-family: Arial, sans-serif;
@@ -295,131 +336,142 @@ height: 30px;
     align-items: center;
     height: 5vh;
     margin: 0;
-  }
+}
 
-    /*telas maiores*/
-@media screen and (min-width:48em){
-    .header{
+/*telas maiores*/
+@media screen and (min-width:48em) {
+    .header {
         display: flex;
-        justify-content:space-between;
-        align-items: center;        
+        justify-content: space-between;
+        align-items: center;
     }
-    .imgtopo{
+
+    .imgtopo {
         max-width: 100%;
         height: 9em;
-        width: 9em;   
-        border radius: 50%;        
-               }
-            
-    
-    .menu ul{
+        width: 9em;
+        border radius: 50%;
+    }
+
+
+    .menu ul {
         font-size: .9em;
         margin-right: 2em;
         margin-left: 3em;
         font-family: sans-serif;
-       
-          }
-    .menu li{
-        display:inline-block;
+
+    }
+
+    .menu li {
+        display: inline-block;
         text-align: center;
-                         
-    }
-    .header a{
-        border-radius: 5px;}
 
-        .menu a:hover{
+    }
+
+    .header a {
+        border-radius: 5px;
+    }
+
+    .menu a:hover {
         background-color: rgb(4, 4, 61);
-      
-}
 
-h1{
-    font-size: 2.5em;
-}
-h2{
-    font-size: 1.8em;
-}
-h3{
-    font-size: 1.5em;
     }
-p{
-    font-size: 1.2em;
-     text-align: center;
+
+    h1 {
+        font-size: 2.5em;
     }
-   
-    .fontapre p{
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .fontapre p {
         font-size: 1.2em;
         text-align: justify;
     }
-   footer {
-        position:relative;
+
+    footer {
+        position: relative;
         left: 0;
         bottom: 0;
-        width: 100%       
-       
-}
-    
-footer p{
-    font-size: 12px;
-    text-align: center;    
-   }
+        width: 100%
+    }
 
-footer img{
-max-width: 80%;
-width: 30px;
-height: 30px;
-}
+    footer p {
+        font-size: 12px;
+        text-align: center;
+    }
 
-.button{
-    font-size: .8em;
-    display:flex;
-    justify-content:center;
-    max-width: 20%;
-    padding: 8px 24px;
-    border-radius:8px;
-    text-align: center;
-          }
+    footer img {
+        max-width: 80%;
+        width: 30px;
+        height: 30px;
+    }
 
-    .imgp1{
-    max-width: 100%;
-    width: 8em;
-    height: 8em;
-    border-radius: 50%; 
-    float: left;}
-    
-   
+    .button {
+        font-size: .8em;
+        display: flex;
+        justify-content: center;
+        max-width: 20%;
+        padding: 8px 24px;
+        border-radius: 8px;
+        text-align: center;
+    }
 
-   .imgp2{
-    max-width: 100%;
-    width: 8em;
-    height: auto;
-    border-radius: 5px;
-    float: left;
-   }
-   
-.imgm {
-    max-width: 100%;
-    width: 300px;
-    height: auto;
-    float: center;
-display:flex;
-    margin: 0px auto;}
+    .imgp1 {
+        max-width: 100%;
+        width: 8em;
+        height: 8em;
+        border-radius: 50%;
+        float: left;
+    }
 
-.buttonseta {
-    background-color:white; 
-    color: gray;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block;
-    font-size: 12px;
-    margin-right: 10px;
-    cursor: pointer;
-    padding: 20px 10px;
-    border-radius: 5px;
-border: 1px solid rgb(235, 177, 20) ;
-    transform: scale(1);
-transition: transform 0.6s ease-in-out;}
 
-.buttonseta:hover {background-color: gray;
-    transform: scale(1.1);
-}
+
+    .imgp2 {
+        max-width: 100%;
+        width: 8em;
+        height: auto;
+        border-radius: 5px;
+        float: left;
+    }
+
+    .imgm {
+        max-width: 100%;
+        width: 300px;
+        height: auto;
+        float: center;
+        display: flex;
+        margin: 0px auto;
+    }
+
+    .buttonseta {
+        background-color: white;
+        color: gray;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin-right: 10px;
+        cursor: pointer;
+        padding: 20px 10px;
+        border-radius: 5px;
+        border: 1px solid rgb(235, 177, 20);
+        transform: scale(1);
+        transition: transform 0.6s ease-in-out;
+    }
+
+    .buttonseta:hover {
+        background-color: gray;
+        transform: scale(1.1);
+    }
 }
